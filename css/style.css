@@ -1,0 +1,334 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vazir.woff2') format('woff2'),
+        url('../fonts/Vazir.woff') format('woff'),
+        url('../fonts/Vazir.ttf') format('truetype'),
+        url('../fonts/Vazir.svg#Vazir') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    direction: rtl;
+    padding: 0px;
+    margin: 0px;
+}
+
+body, a, input, select{
+    font-family: 'Vazir'
+}
+
+div{
+    display: flow-root;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 5px;
+    color: #76737c;
+    text-align: justify;
+}
+
+h1{
+    color: #1C3762;
+}
+
+h2{
+    color: #1C3762;
+}
+
+strong{
+    color: #1C3762;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flow-root;
+}
+
+#header{
+    width: 100%;
+    display: flow-root;
+    margin-bottom: 100px;
+}
+
+.logo{
+   position: absolute;
+   float: right;
+}
+#menu{
+    float: left;
+    display: flow-root;
+    margin-top: 20px;
+} 
+#menu ul{
+    margin: 10px;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+#menu ul li:nth-child(6){
+    margin-left: 0;
+}
+#menu ul li a{
+    color: #1C3762;
+}
+#signUp{
+    margin-right: 50px;
+    float: left;
+    margin-top: 30px;
+}
+
+#lessons{
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+#features{
+    display: inline-flex;
+    margin-bottom: 100px;
+}
+.featureBox{
+    border: 0.5px solid #e2e2e2;
+    padding: 70px 20px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.featureBox img{
+    display: block;    
+    margin: auto;
+    width: 30%;
+}
+
+#rating{
+    background-image: linear-gradient(to right, #ff5400, #ff5f00, #ff6a00, #ff7400, #ff7d00, #ff8a00, #ff9600, #ffa200, #ffb400, #ffc600, #ffd900, #ffeb00);
+    color: white;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+#rating h2{
+    color: white;
+}
+
+#courses{
+    margin-bottom: 100px;
+}
+#courses img{
+    border-radius: 5px;
+    margin: 10px;
+}
+#courses hr{
+    width: 300px;
+}
+#courseBox{
+    display: inline-flex;
+}
+.courseBox{
+    padding: 5px;
+    margin: 5px;
+}
+.price{
+    float: left;
+    color:#fe673c;
+}
+.star{
+    color: #cccccc;
+}
+.fullStar{
+    color: #f29217;
+}
+
+#comments{
+    margin: 50px 0;
+}
+#comments img{
+    width: 100%;
+}
+.commentBox{
+    width: 100%;
+    padding: 30px;
+    box-shadow: 5px 10px 18px rgba(160, 160, 160, 0.51);
+    margin-left: 10px;
+}
+
+#weblog{
+    margin-bottom: 100px;
+}
+#weblog h2{
+    clear: both;
+}
+#weblog img{
+    border-radius: 5px;
+}
+#weblog hr{
+    width: 300px;
+}
+#weblogBox{
+    display: inline-flex;
+}
+.weblogBox{
+    padding: 5px;
+    margin: 5px;
+}
+
+#footer{
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+#footer input{
+    border-color: #cacaca;
+    background-color: #f7f7f7;
+    width: 90%;
+    padding: 12px 12px;
+    margin: 5px;
+}
+.socialMedia{
+    color: #cccccc;
+}
+/* ----------------------------------------------contactUs------------------------------------------------------------- */
+#field{
+    display: grid;
+}
+#field input{
+    border-color: #cacaca;
+    background-color: #f7f7f7;
+    width: 30%;
+    padding: 10px 10px;
+    margin: 5px;
+}
+#field textarea{
+    border-color: #cacaca;
+    background-color: #f7f7f7;
+    width: 30%;
+    padding: 12px 12px;
+    margin: 5px;
+}
+#field select{
+    border-color: #cacaca;
+    background-color: #f7f7f7;
+    width: 30%;
+    padding: 12px 12px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* buttons */
+.btn{
+    border-radius: 20px;
+    padding: 8px 30px;
+    transition: all 0.4s;
+}
+.btn:hover{
+    -webkit-box-shadow: 5px 5px 24px 5px rgba(160, 160, 160, 0.51); 
+    box-shadow: 5px 5px 24px 5px rgba(160, 160, 160, 0.51);
+    transition: all 0.4s;
+}
+.activeBtn{
+    background-image: linear-gradient(to right, #ff5400, #ff5f00, #ff6a00, #ff7400, #ff7d00, #ff8a00, #ff9600, #ffa200, #ffb400, #ffc600, #ffd900, #ffeb00);
+    border:none;
+    color: white;
+}
+.primaryBtn{
+    background-color: white;
+    border: 2px solid #1C3762;
+    color: #1C3762;
+}
+.okBtn{
+    border-radius: 3px;
+    padding: 9px 20px;
+    float: left;
+    position: relative;
+    top: -51px;
+    left: 10px;
+}
+
+/* text properties */
+.fontSize4em{
+    font-size: 4em;
+}
+.fontSize3em{
+    font-size: 3em;
+}
+.txtAlignCenter{
+    text-align: center;
+}
+.whiteFont{
+    color: white;
+    background-color: #fe673c;
+}
+
+/* different width */
+.w50{
+    width: 50%;
+    float: right;
+}
+.w25{
+    width: 25%;
+    float: right;
+}
+.w33{
+    width: calc(100% / 3);
+    float: right;
+}
+.w60{
+    width: 60%;
+    float: right;
+}
+.w70{
+    width: 70%;
+    float: right;
+}
+.w30{
+    width: 30%;
+    float: right;
+}
+
+/* after before */
+.preHead::before{
+    content: " ";
+    width: 50px;
+    height: 3px; 
+    background-color: #ff663c;
+    position: absolute;
+    margin-top: 12px;
+    margin-right: -53px;
+}
+.num::after{
+    content: " ";
+    width: 70px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    margin-top: 75px;
+    margin-right: -84px;
+    padding-right: 30px;
+}
+.sufHead::after{
+    content: " ";
+    width: 100px;
+    height: 3px; 
+    background-color: #ff663c;
+    position: absolute;
+    margin-top: 70px;
+    margin-right: -220px;
+}
+
+/* fixes */
+.preHeadFixing{
+    margin-right: 50px;
+}
